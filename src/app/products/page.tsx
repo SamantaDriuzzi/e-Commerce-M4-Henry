@@ -7,7 +7,7 @@ const TiroDevanagariSanskrit = Tiro_Devanagari_Sanskrit({
   weight: "400",
   subsets: ["latin"],
 });
- const Products = async () => {
+const Products = async () => {
   const products = await getProducts();
 
   return (
